@@ -18,6 +18,7 @@
         android:text="Hello World!"
         android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -30,6 +31,7 @@
         android:text="TextView"
         android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/switch1" />
 
     <Button
@@ -42,6 +44,7 @@
         android:text="Button"
         android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
 
     <Switch
@@ -54,6 +57,7 @@
         android:text="Switch"
         android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox" />
 
     <CheckBox
@@ -66,6 +70,7 @@
         android:text="CheckBox"
         android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toggleButton" />
 
     <ToggleButton
@@ -78,6 +83,7 @@
         android:text="ToggleButton"
         android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
