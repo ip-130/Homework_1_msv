@@ -15,7 +15,7 @@
         android:layout_marginTop="32dp"
         android:autoText="true"
         android:clickable="false"
-        android:text="Hello World!"
+        android:hint="pls enter text"
         android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
