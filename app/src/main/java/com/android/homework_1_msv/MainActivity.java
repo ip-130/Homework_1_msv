@@ -1,4 +1,4 @@
-CDpackage com.android.homework_1_msv;
+package com.android.homework_1_msv;
 
 import androidx.appcompat.app.AppCompatActivity;
 
